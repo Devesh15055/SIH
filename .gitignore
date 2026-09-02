@@ -1,0 +1,51 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled Code
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary Files & Uploads
+uploads/
+temp/
+!temp/.gitkeep
+*.tmp
+
+# Generated Audit Reports
+generated_reports/
+!generated_reports/.gitkeep
+*.pdf
+
+# Log Files & Database Storage
+*.log
+*.db
+*.sqlite
+database/*.db
+
+# Model Weights & Large AI Artifacts
+large_models/
+model_weights/
+*.pth
+*.pt
+*.onnx
+*.h5
+*.bin
+*.tflite
+*.safetensors
+
+# IDE & OS Artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
